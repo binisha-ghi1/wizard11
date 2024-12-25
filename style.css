@@ -1,0 +1,256 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    color: #020202;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(133, 250, 38);
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #070707;
+    font-weight: bolder;
+  }
+  
+  #parent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 20px;
+  }
+
+  #hero-content {
+    flex: 1;
+  }
+  
+  #hero-content h1 {
+    font-size: 2.5rem;
+    color: #000;
+    margin-bottom: 20px;
+  }
+  
+  #hero-content p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #hero-content button {
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #hero-image {
+    flex: 1;
+    text-align: right;
+  }
+  
+  #hero-image img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+  }
+   
+  .brands {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .brands img {
+    width: 100px; 
+    transition: transform 0.3s ease;
+  }
+  
+  .brands img:hover {
+    transform: scale(1.1); 
+    cursor: pointer;
+  }
+  
+  .services-container h2{
+    color: #a1ff00;
+  }
+  
+.services-section {
+  background: #edf3ed;
+  font-weight: bold;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.services-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.services-container h2 button {
+  padding: 10px 20px;
+  background: black;
+  font-size: 2.5rem;
+  color: #a1ff00;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.services-container p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.service-card {
+  background: #000;
+  color: #f6fdf3;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.service-card h3 {
+  font-size: 1.5rem;
+  color: #a1ff00;
+}
+
+.service-card img {
+  max-width: 50%;
+  align-self: center;
+  margin: 10px 0;
+}
+
+.service-card a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: lighter;
+  margin-top: auto;
+}
+
+.service-card:hover {
+  background: #222;
+  transform: scale(1.05);
+  transition: transform 0.3s ease, 
+}
+
+  .cta-section {
+    background: #f9f9f9;
+    padding: 50px 0;
+  }
+  
+  .cta-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .cta-content {
+    flex: 1;
+  }
+  
+  .cta-content h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .cta-content p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .cta-content button {
+    padding: 10px 20px;
+    background: #000;
+    color: #a1ff00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cta-image {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .cta-image img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+  }
+  .case-studies {
+    padding: 50px 0;
+    background: #080808;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .case-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .case-item {
+    background: #1a1919;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 2.3;
+  }
+  .case-item button{
+    padding: 10px 20px;
+    background: #000;
+    color: #a1ff00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+ 
+  
